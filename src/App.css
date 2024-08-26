@@ -1,0 +1,49 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.calculator-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+button.calculate {
+  background-color: #28a745; /* Green */
+}
+
+button.clear {
+  background-color: #dc3545; /* Red */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+}
